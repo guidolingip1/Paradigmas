@@ -1,0 +1,34 @@
+Qual será o resultado das seguintes consultas?
+1 - 	?- europeu(andre). -> Verifica se o andré é europeu, como não é retorna false
+2 - ?- gaucho(andre). -> Verifica se o andré é gaucho, como é retorna true
+3 - ?- brasileiro(X). ->  verifica e imprime quem os brasileiros
+
+
+Expresse as seguintes afirmações em um ou mais fatos Prolog:
+nasceu_em(joana, salvador).
+idade(joana, 22).
+idade(michael, 40).
+
+
+Expresse as seguintes perguntas em consultas Prolog:
+brasileiro(jose)
+europeu(X)
+idade(X,Y), Y > 30
+idade(X,Y), Y < 30, brasileiro(X)
+
+
+Crie um predicado maisVelho(A,B) que permita deduzir se a pessoa A é mais velha que a pessoa B. Use o predicado idade. Exemplo de uso:
+maisVelho(NomeA,NomeB) :- idade(NomeA,IdadeA), idade(NomeB,IdadeB), IdadeA > IdadeB.
+
+
+Em Prolog, o operador is serve para calcular uma expressão aritmética e atribuir seu valor a uma variável, como nos exemplos abaixo:
+soma(8,5,s) -> retorna false
+pred(3,2,X) -> x = 51
+
+
+Usando o operador is, crie um predicado anoNasc(P,A) que permita deduzir o ano aproximado de nascimento (A) de uma pessoa (P). Use o predicado idade e o ano corrente como referência. Exemplo de uso:
+anoNasc(P,A) :- idade(P, X), A is 2019 - X.
+
+
+Em Prolog, listas são tipos ...
+isVowel(X) :- member(X,[a,e,i,o,u]).
