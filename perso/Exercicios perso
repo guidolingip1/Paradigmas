@@ -1,0 +1,42 @@
+#Crie uma função sumSquares :: Int -> Int -> Int que calcule a soma dos quadrados de dois números x e y
+
+def sumSquares (a,b):
+  a = a*a;
+  b = b*b;
+  return a+b;
+
+
+#Crie uma função hasEqHeads :: [Int] -> [Int] -> Bool que verifique se 2 listas possuem o mesmo primeiro elemento. Use a função head e o operador lógico == para verificar igualdade.
+
+def hasEqHeads (lista,listb):
+  if lista[0] == listb[0]:
+    return 1;
+  else:
+    return 0;
+
+#Escreva uma função que receba uma lista de números e retorne somente aqueles que forem pares.
+
+def pares (lista):
+  for i in lista:
+      if i%2 == 0:
+        print (i," = par");
+  
+
+#Crie uma função que receba uma string e retorne o número de espaços nela contidos.
+def espaco (frase):
+  return frase.count(" ");
+  
+#Escreva uma função que, dada uma lista de idades de pessoas no ano atual, retorne uma lista somente com as idades de quem nasceu depois de 1980. Para testar a condição, sua função deverá subtrair a idade do ano atual.
+def ano (lista, ano):
+  for i in lista:
+    if (2019 - i) <= 1980:
+      print (i);
+
+
+#Escreva uma função que, dada uma lista de números, selecione somente os que forem negativos.
+def negativos(lista):
+  for i in lista:
+    if i < 0:
+      print (i);
+
+
