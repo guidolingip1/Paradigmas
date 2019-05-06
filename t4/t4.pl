@@ -115,7 +115,7 @@ cena_do_crime(X) :- quinta(X, apartamento); sexta(X, apartamento).
 % roubos
 
 roubou_arma(X) :- quarta(X, santa_maria); quinta(X, porto_alegre); quarta(X, apartamento); quinta(X, apartamento).
-roubou_chave(X) :- segunda(X, santa_maria); terca(X, porto_alegre).
+roubou_chave(X) :- segunda-feira(X, santa_maria); terca(X, porto_alegre).
 
 % acesso a cena do crime
 
