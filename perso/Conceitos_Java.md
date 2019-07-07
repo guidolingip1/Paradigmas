@@ -48,7 +48,7 @@ Na código acima Cachorro com C maiúsculo é a Classe e meuCachorro é o meu ob
 Uma instância de uma classe é um novo objeto criado dessa classe.
 Uma classe somente poderá ser utilizada após ser instanciada.
 
-Exemplo: No código acima após eu ter criado um objeto do tipo cachorro, a eu instanciei esta classe, podendo agora utilizar seus métodos.
+Exemplo: No código acima eu instanciei esta classe, podendo agora utilizar seus métodos.
 
 #### Métodos
 
