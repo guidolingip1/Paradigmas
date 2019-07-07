@@ -3,8 +3,9 @@
 ## Algoritmo Simples
 
 Algoritmo simples em ruby, uma classe um método e um objeto
-    #Criação da minha Classe
-    class Animal
+   
+	 #Criação da minha Classe
+    	 class Animal
 	
 		#Criação do método mugir
 		def mugir
