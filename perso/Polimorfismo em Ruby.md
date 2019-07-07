@@ -1,8 +1,8 @@
 ## Exemplo de OOP em outra Linguagem (Ruby)
 
-## Algorítimo Simples
+## Algoritmo Simples
 
-Algorítimo simples em ruby, uma classe um método e um objeto
+Algoritmo simples em ruby, uma classe um método e um objeto
     #Criação da minha Classe
     class Animal
 	
@@ -20,7 +20,7 @@ Algorítimo simples em ruby, uma classe um método e um objeto
 
 
     
-   ## Algorítimo com Polimorfismo
+   ## Algoritmo com Polimorfismo
 
     #Criação da minha Classe
     class Animal
@@ -31,10 +31,12 @@ Algorítimo simples em ruby, uma classe um método e um objeto
 		end
 	end
 	
-	#Aqui eu crio uma Classe Cachorro que é um Animal, se eu mandar o Cachorro Falar sem alterar o método falar, ele irá mugir
-	class Cachorro < Animal
+	
+    #Aqui eu crio uma Classe Cachorro que é um Animal, se eu mandar o Cachorro Falar sem alterar o método falar ele ira mugir
+    class Cachorro < Animal
 	    
-	    #Alteração do método Falar
+	    #Com a mudança do método falar agora ele ira latir
 	    def falar
 		    puts("Au Au")
 		end
+	end
