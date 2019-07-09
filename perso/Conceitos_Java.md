@@ -126,7 +126,22 @@ Exemplo de código onde duas Threads imprimem mensagens diferentes:
 #### Herança
 
 Quando a subclasse herda as características da superclasse. Denota especialização.
+Exemplo de Herança
+
+    public  class Animal { 
+	    public void comer() { 
+		    System.out.println( "Animal Comendo..." ); 
+		} 
+	}
+	
+	public  class Cao extends Animal { 
+		public void comer() { 
+			System.out.println( "Cão Comendo..." ); 
+		} 
+	} 
 
 #### Encapsulamento
 
 É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
+
+    Private String nome;
